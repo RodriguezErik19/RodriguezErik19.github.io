@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de registro de alumno</h1>
+    <label for="nombre">Nombre</label>
+    <input type="text" placeholder="teclea la edad" required><br>
+
+    <label for="edad">Edad:</label>
+    <input type="number" placeholder="Teclee la edad" required><br><br>
+
+    <label for="fecha_nacimiento">Fecha de fecha nacimiento:</label>
+    <input type="date" required><br><br>
+
+    <input type="radio" name="sexo" required>femenino<br><br>
+    <input type="radio" name="sexo" required>masculino<br><br>
+
+    <label for="direccion">Direccion</label><br>
+    <textarea name="direccion" id="" cols="30" rows="10" placeholder="teclea direccion"></textarea>
+    <br><br>
+
+    <label for="escuela">Escuela:</label>
+    <select name="escuela" id="">
+        <option value="">Selecciona una escuela</option>
+        <option value="CECyTE">CECyTE</option>
+        <option value="COBAES">COBAES</option>
+        <option value="conalep">conalep</option>
+        <option value="otra">Otra</option>
+        
+    </select><br><br>
+
+    <label for="materias"><b>Materias curasadas:</b></label><br>
+    <input type="checkbox" name="Materias[]"> Fisica <br>
+    <input type="checkbox" name="Materias[]"> Basket <br>
+    <input type="checkbox" name="Materias[]"> Programacion <br>
+    <input type="checkbox" name="Materias[]"> Salud Mental <br>
+
+    <label for="imagen_perfil"><b>Imagen de perfil:</b></label>
+    <input type="file" accept="png/jpg"><br><br>
+
+</body>
+</html>
