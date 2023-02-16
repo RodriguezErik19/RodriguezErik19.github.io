@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">s
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <style>
+        .menu{
+            background-color: aquamarine;
+        }
+        .menu:hover{
+            background-color: aquamarine;
+        }
+        a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .Contenido{
+            border: 1px solid black;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 15px;
+        }
+    </style>
 </head>
 <body>
     <h1>Navegacion en HTML</h1><hr>
 <div style="border: 1px; solid black;">
-    <div style="border-bottom: 1px solid rgb(240, 190, 225); padding: 10px;">
-        Noticias
+    <div style="border-bottom: 1px solid rgb(240, 190, 225); padding: 10px;" class="menu">
+        <a href="Practica6_noticias.html">Noticias</a>
+        </div>
+    <div style="border-bottom: 1px solid rgb(240, 190, 225); padding: 10px;" class="menu">
+        <a href="practica6_galerias.html">Galerias</a>
     </div>
-    <div style="border-bottom: 1px solid rgb(240, 190, 225); padding: 10px;">
-        Galerias
-    </div>
-    <div style="border-bottom: 1px solid rgb(240, 190, 225); padding: 10px;">
-        Contacto
+    <div style="border-bottom: 1px solid rgb(240, 190, 225); padding: 10px;" class="menu">
+        <a href="practica6_contacto.html">Contacto</a>
     </div>
 </div>
+<div class="Contenido">
+    <h3>Bienvenido</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae eius eligendi, aut ratione ipsa minima nam omnis harum exercitationem quibusdam rem voluptas, sunt labore nihil, consectetur consequatur iusto? Quae, neque?</p>
+</div>
 
-
-    
 </body>
 </html>

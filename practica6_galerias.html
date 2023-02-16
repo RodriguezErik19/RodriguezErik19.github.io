@@ -5,17 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .menu{
+            background-color: aquamarine;
+        }
+        .menu:hover{
+            background-color: aquamarine;
+        }
+        a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .Contenido{
+            border: 1px solid black;
+            border-radius: 20px;
+            margin-top: 20px;
+            padding: 15px
+        }
+    </style>
 </head>
 <body>
-    <h1>Galeria de fotos</h1><hr>
-    <div style="border: 2px solid black; padding: 20px;">
-    <img src="cats-g629bbbd0a_1280" alt="" style="border: 1px solid black; widht: 30%;">
-    <img src="cats-g629bbbd0a_1280" alt="" style="border: 1px solid black; widht: 30%;">
-    <img src="cats-g629bbbd0a_1280" alt="" style="border: 1px solid black; widht: 30%;">
-    
+    <h1>Navegacion en HTML</h1><hr>
+    <div style="border: 1px; solid black;">
+        <div style="border-bottom: 1px solid rgb(240, 190, 225); padding: 10px;" class="menu">
+            <a href="Practica6_noticias.html">Noticias</a>
+            </div>
+        <div style="border-bottom: 1px solid rgb(240, 190, 225); padding: 10px;" class="menu">
+            <a href="practica6_galerias.html">Galerias</a>
+        </div>
+        <div style="border-bottom: 1px solid rgb(240, 190, 225); padding: 10px;" class="menu">
+            <a href="practica6_contacto.html">Contacto</a>
+        </div>
     </div>
-    <div style="border: 1px solid black; padding: 10px; background-color: beige">
-    <a href="practica_6.html"> regresar al inicio</a>
-    </div>    
+    <div class="Contenido">
+        <h1>Galeria de fotos</h1><hr>
+        <div style="border: 2px solid black; padding: 20px;">
+        <img src="cat-g7feba0019_1280.jpg" alt="" style="border: 1px solid black; widht: 30%;">
+        <img src="cat-g7feba0019_1280.jpg" alt="" style="border: 1px solid black; widht: 30%;">
+        <img src="cat-g7feba0019_1280.jpg" alt="" style="border: 1px solid black; widht: 30%;">
+    
+        </div>
+        <div style="border: 1px solid black; padding: 10px; background-color: beige">
+        <a href="practica_6.html"> regresar al inicio</a>
+        </div>    
+    </div>
+    
+
+   
 </body>
 </html>
