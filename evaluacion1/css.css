@@ -1,0 +1,14 @@
+.d-block-w100{
+    height: 400px;
+    width: 700px;
+
+}
+.card-img-top{
+  height: 260px;
+    width: 200px;
+
+
+}
+body{
+    background-color: rgb(224, 196, 139);
+}
